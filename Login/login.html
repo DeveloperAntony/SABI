@@ -1,48 +1,46 @@
 <!DOCTYPE html>
 <html lang="es"> 
 <head>
-    <meta charset="UTF-8" />
+    <meta charset="UTF-8"/>
     <title>Login</title>
+    <link rel="stylesheet" href="login.css">
 </head>
 <body>
-    <div class="Login">
-        <div >
-        <div class="LogosIDM"  >
-            <img src="LOGOIDM.png" alt="LOGO-IDM" />
-             
-        </div>
-    <div>
-        <div>
-            <label for="Usuario">Usuario</label>
-         </div>
-         <div>
-            <input type="text" name="Usuario" id="Usuario" required />
-         </div>
-        </div>
-   <div>
-    <div>
-        <label for="password">Contraseña</label>
-    </div>
-       <div>
-        <input type="password" name="password" id="password" required />
-       </div>
-      
-   </div>
-   
-    <div>
-        <h3>
-        <a href="#">Olvidaste contraseña</a>
-        </h3>
+    <div class="login-principal">
 
-        <div>
-            <button type="submit">Iniciar sesión</button>
+        <div class="Login">
+            <img src="LOGOIDM.png" alt="LOGO-IDM" />
+        </div> 
+
+        <div class="section-two">
+            <div>
+                <label for="Usuario"></label>
+                <input type="text" name="Usuario" id="Usuario" placeholder="Usuario" class="input" required />
+            </div>
+        
+            <div>
+                <label for="password"></label>
+                <input type="password" name="password" id="password" placeholder="Contraseña" class="input" required />
+            </div> 
+
+            <div>
+                <h3>
+                <a href="#">¿Olvidaste tu contraseña?</a>
+                </h3>
+            </div>
         </div>
-    </div>
-     <div class="Registrate">
-    <div>
-      <h5>¿Aun no tienes cuenta?
-        <a href="#">Registrate</a>
-      </h5>
+
+        <div class="section-three">
+            <div>
+                <button type="submit">Iniciar sesión</button>
+            </div>
+        
+            <div class="Registrate">
+                <h5>¿Aun no tienes cuenta?
+                    <a href="#">Regístrate</a>
+                </h5>
+            </div>
+        </div>
     </div>
 </body>
  </div>  

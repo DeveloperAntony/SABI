@@ -1,0 +1,87 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    color: white;
+    background: linear-gradient(to bottom right, #06e3d1, #006760);   /* Degradado horizontal */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/*Div padre */
+.login-principal{  
+    display: flex;
+    gap: 0.5 rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #045c54;
+    border-radius: 1rem;
+    width: 23rem;
+    height: 32rem;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.38);
+}
+
+/*Div padre de la imagen*/
+.Login{    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+/*Imagen*/
+.Login img{     
+    width: 10rem;
+    height: 5rem;
+}
+
+/*Div de los inputs*/
+.section-two{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+/*Inputs de usuario y contraseña*/
+.input{
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid gray;
+    width: 100%;
+}
+
+/*Enlaces*/
+a{
+    color: white;
+    text-decoration: none;
+    font-weight: normal;
+}
+
+/*Efecto para cuando se pasa el mouse por encima del enlace*/
+a:hover{
+    text-decoration: underline;
+}
+
+/*Padre del botón*/
+.section-three{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+}
+
+/*Botón*/
+button{
+    background-color: #139f93;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 0.8rem 5rem 0.8rem 5rem;
+    border-radius: 0.5rem;
+    border: none;
+}
+
+
